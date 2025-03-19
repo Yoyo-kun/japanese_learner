@@ -1,0 +1,47 @@
+/* 主窗口背景 */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+/* 左侧 QListWidget */
+QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    font-size: 40px;
+    padding: 5px;
+}
+
+/* 按钮 */
+QPushButton {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 40px;  /* 修改为 40px */
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #005f99;
+}
+
+/* 标签 */
+QLabel {
+    font-size: 40px;  /* 修改为 40px */
+    font-weight: bold;
+    color: #333;
+}
+
+/* 输入控件 */
+QLineEdit, QTextEdit, QComboBox {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    font-size: 40px;
+    padding: 4px;
+}
+
+/* 滚动区域 */
+QScrollArea {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
